@@ -88,7 +88,7 @@ main{
     max-width: 100%;
     width: 50px;
     height: auto;
-
+    border-radius: 0px;
 }
 
 .section1 div ul{
