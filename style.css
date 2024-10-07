@@ -89,6 +89,7 @@ main{
     width: 50px;
     height: auto;
     border-radius: 0px;
+    box-shadow: none;
 }
 
 .section1 div ul{
