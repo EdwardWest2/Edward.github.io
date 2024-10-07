@@ -266,6 +266,10 @@ footer{
     footer{
         font-size: 10px;
     }
+
+    .section1 ul{
+        padding: 0px;
+    }
 }
 
 @media (max-width:360px){
