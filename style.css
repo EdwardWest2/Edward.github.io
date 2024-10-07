@@ -150,6 +150,64 @@ span{
     flex-direction: column;
 }
 
+.section4 button{
+    background-color:#0f0e17 ;
+    border: bisque;
+    color: bisque;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid bisque;
+    transition: 0.5s ease all;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.section4 button:hover{
+    background-color: #1c1b24;
+    color: bisque;
+    
+
+}
+
+.section4 input{
+    background-color:#0f0e17 ;
+    border: antiquewhite;
+    color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid antiquewhite;
+    margin: 5px;
+}
+
+.section4 textarea{
+    background-color:#0f0e17 ;
+    border: antiquewhite;
+    color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid antiquewhite;
+    margin: 5px;
+}
+
+.section4 h1{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
 .projectimg-wrapper{
     display: flex;
     justify-content: center;
@@ -163,6 +221,7 @@ footer{
 }
 
 
+/* RESPONSIVE */
 
 @media (max-width:1090px){
     .section3 img{
@@ -270,6 +329,15 @@ footer{
     .section1 ul{
         padding: 0px;
     }
+
+    .section4 input,.section4 textarea{
+        /* padding: 5px; */
+        border: 1px antiquewhite solid;
+    }
+
+    .section4 h1{
+        font-size: 18px;
+    }
 }
 
 @media (max-width:360px){
@@ -297,6 +365,9 @@ footer{
     }
 
 }
+
+
+/* ANIMATION SET */
 
 @keyframes anim1{
     from{
