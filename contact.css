@@ -1,0 +1,308 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    background-color: #0f0e17;
+    margin: 0;
+}
+
+main{
+    animation: anim1 0.7s ease;
+}
+
+.wrapper-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    scroll-snap-align: start;
+}
+
+.wrapper-navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.wrapper-navbar li{
+    padding: 15px;
+}
+
+.wrapper-navbar a{
+    color: bisque;
+    transition: 0.5s ease;
+}
+
+.wrapper-navbar a:hover{
+    transform:translateY(10px);
+    margin: 10px;
+    text-shadow: 2px 2px 15px white;
+}
+
+.wrapper-navbar h1{
+    color: bisque;
+}
+
+.section1 div h1{
+    margin-top: 100px;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+}
+
+.section1 div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    
+    scroll-snap-align: start;
+    /* margin-top: 50vh; */
+    padding-top: 25vh;
+}
+
+.section2 div{
+    width: 900px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e1c29;
+}
+
+.section2 h1{
+    text-align: center;
+}
+
+.section2 ul{
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 li{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: all 0.6s ease;
+}
+
+.section2 li:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+.section2 a{
+    display: flex;
+    /* margin: 10px; */
+    align-items: center;
+}
+
+.section2 a img{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    margin-right: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#phone,#email{
+    width: 600px;
+}
+
+#firstName,#lastName{
+    width: 280px;
+}
+
+.name{
+    display: flex;
+}
+
+.section1 h1{
+    text-align: center;
+}
+
+input{
+    border: solid 3px bisque;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+textarea{
+    border: solid 3px bisque;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+    width: 600px;
+    height: 80px;
+}
+
+#submit{
+    border: solid 3px bisque;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+    color: bisque;
+    width: 100px;
+}
+
+span{
+    color: bisque;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    margin-top: 150px;
+    scroll-snap-align: start;
+}
+
+/* Responsive */
+
+@media (max-width:360px){
+    .G{
+        width: 100px;
+    }
+
+    
+}
+
+@media (max-width:440px){
+
+    .wrapper-navbar h1{
+        font-size: 20px;
+    }
+
+    .wrapper-navbar a{
+        font-size: 10px;
+    }
+
+    .wrapper-navbar a:hover{
+        margin: 4px;
+    }
+
+    #email,#phone{
+        /* padding: 5px; */
+        width: 280px;
+    }
+    #firstName,#lastName{
+        width: 120px;
+    }
+    textarea{
+        width: 280px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+
+    .section2{
+    padding-top: 10vh;
+
+    }
+    .section2 a img{
+        width: 80px;
+    }
+
+    .section2 ul{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+    }
+
+    .section2 .Ge{
+        width: 300px;
+
+    }
+
+    .section2{
+        width: inherit;
+    }
+}
+
+@media (max-width:780px){
+    .section2 div{
+        width: 615px;
+    }
+
+    .section2 a img{
+        width: 80px;
+    }
+
+}
+
+@media (max-width:630px){
+    .section2 div{
+        width: 500px;
+    }
+    .section2 img{
+        width: 70px;
+    }
+    .wrapper-navbar h1{
+        font-size: 20px;
+    }
+
+    .wrapper-navbar a{
+        font-size: 10px;
+    }
+
+    .wrapper-navbar a:hover{
+        margin: 4px;
+    }
+
+    #email,#phone{
+        /* padding: 5px; */
+        width: 340px;
+    }
+    #firstName,#lastName{
+        width: 150px;
+    }
+    textarea{
+        width: 350px;
+    }
+
+    .section2 li {
+        padding: 13px;
+    }
+}
+
+/* Animation */
+
+@keyframes anim1{
+    from{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
