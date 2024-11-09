@@ -374,7 +374,7 @@ footer{
 
 /* ANIMATION SET */
 
-@keyframes anim1{
+/* @keyframes anim1{
     from{
         opacity: 0;
         transform: translateY(70px);
@@ -394,7 +394,7 @@ footer{
         opacity: 1;
         scale: 1;
     }
-}
+} */
 
 @keyframes anim3{
     0%{
