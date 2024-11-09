@@ -276,7 +276,7 @@ footer{
 
 /* ANIMATION SET */
 
-@keyframes anim1{
+/* @keyframes anim1{
     from{
         opacity: 0;
         transform: translateY(70px);
@@ -299,7 +299,7 @@ footer{
         transform: translateY(0px);
     }
 }
-
+ */
 @keyframes anim3{
     0%{
         font-family: 'Courier New', Courier, monospace;
