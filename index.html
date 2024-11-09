@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body>
@@ -18,14 +19,14 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <section>
-            <div class="section1">
+            <div class="section1" data-aos="fade-up" data-aos-delay="300">
                     <img src="img/edward.jpg" alt="">
                 <div>
                     <h1>HELO, <span>THIS IS <span id="Edward">EDWARD </span> </span></h1>
@@ -39,7 +40,7 @@
             </div>
         </section>
         <section>
-            <div class="section3">
+            <div class="section3" data-aos="fade-up" data-aos-delay="300">
                 <h2>THIS IS MY <span>PROJECTS </span></h2>
                 <div class="projectimg-wrapper">
                     <article>
@@ -58,7 +59,7 @@
             </div>
         </section>
         <section>
-            <div class="section4">
+            <div class="section4" data-aos="fade-up" data-aos-delay="300">
                 <h1>ASK A <span>QUESTION?</span></h1>
                 <div class="form">
                     <input type="text" placeholder="Username" id="username">
@@ -71,7 +72,11 @@
     <footer>
         <P>CopyRight &copy; Edward X TIP 1</P>
     </footer>
-
+    
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
