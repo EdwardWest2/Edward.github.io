@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Is Edward</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Bigelow+Rules&family=Lacquer&family=Nothing+You+Could+Do&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,7 +28,7 @@
             <div class="section1" data-aos="fade-up" data-aos-delay="300">
                     <img src="img/edward.jpg" alt="">
                 <div>
-                    <h1>HELO, <span>THIS IS <span id="Edward">EDWARD </span> </span></h1>
+                    <h1>HELLO, <span>THIS IS <span id="Edward">EDWARD </span> </span></h1>
                     <p>FULL STACK DEVELOPER & SMK Strada Rajawali Student</p>
                     <ul>
                         <li><a href="https://wa.me/+6285155283778"><img src="img/whatsapp.png" alt=""></a></li>
@@ -73,34 +72,10 @@
         <P>CopyRight &copy; Edward X TIP 1</P>
     </footer>
     
-    <script src="sct.js"></script>
+    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
-    </script>
-    <script>
-        document.getElementById("submit").addEventListener("click",()=>{
-
-        Swal.fire({
-        title: "Are you sure?",
-        text: "Your response will be sent!",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonColor: "#3085d6",
-        cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, send it"
-        }).then((result) => {
-        if (result.isConfirmed) {
-            Swal.fire({
-            title: "SENT!",
-            text: "Your response has been sent.",
-            icon: "success"
-            });
-        }
-        })
-        });
     </script>
 </body>
 </html>
