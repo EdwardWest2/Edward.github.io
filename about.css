@@ -1,15 +1,33 @@
 *{
     color: white;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal
 }
 
 h1{
     text-align: center;
 }
 
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     background-color: #0f0e17;
     margin: 0;
+}
+
+span{
+    color: bisque;
+}
+
+#hobby{
+    animation: anim3 5s linear infinite;
+    font-size: 25px;
 }
 
 main{
@@ -156,6 +174,10 @@ img{
     
 }
 
+article[
+    data-aos="fade-up"
+]
+
 .section0{
     margin-top: 0;
 }
@@ -171,6 +193,11 @@ img{
 
 section{
     margin-top: 150px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
@@ -298,8 +325,8 @@ footer{
         scale: 1;
         transform: translateY(0px);
     }
-}
- */
+} */
+
 @keyframes anim3{
     0%{
         font-family: 'Courier New', Courier, monospace;
@@ -319,3 +346,21 @@ footer{
     }
 }
 
+@keyframes anim3{
+    0%{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    25%{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    50%{
+        font-family: monospace;
+    }
+    75%{
+        font-family: sans-serif;
+    }
+    100%{
+        font-family: monospace;
+    }
+}
